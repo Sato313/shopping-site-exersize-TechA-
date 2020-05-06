@@ -1,0 +1,169 @@
+html {
+  font-size: 62.5%; }
+
+ body{
+  background:#F9F8F6 ; }
+  
+  #header_in{
+    
+    margin-top: 20px;
+  }
+  
+  .container::after {
+    content: '';
+    display: block;
+    clear: both;}
+    
+    #header_in div row{
+      display: flex;
+justify-content: space-between;
+max-width: 960px;
+margin: auto;
+    }
+
+  .moji{margin-top: 25px;
+      display:flex;
+  }
+  .margin{margin-right:20px;}
+
+ .margin-bottom{margin-bottom: 10px;} 
+  
+ 
+  .sp_logo,.sp_navi{
+      
+      text-align:center; 
+  }
+  
+ 
+  
+   @media (min-width: 550px) {
+    header .sp_logo {
+      display: none; }}
+      
+       @media (min-width: 550px) {
+    header .sp_navi {
+      display: none; }}
+      
+       @media (max-width: 549px) {
+    header .pc_logo {
+      display: none; }}
+      
+       @media (max-width: 549px) {
+    header .pc_navi {
+      display: none; }}
+      
+      main{
+        display:flex;
+      }
+      
+      @media (max-width: 549px) {
+    main{
+      display:flex;
+      flex-direction:column;}}
+    
+     main{display: flex; max-width: 960px; margin: auto; justify-content: space-between;}
+    
+    
+   .contents{
+     width:70%;
+   } 
+      
+     .syasinn{
+       background-color:#FFF;
+     }
+      
+      #A,B{
+        margin:20px;
+      
+      }
+      
+       @media (min-width: 550px) {
+    #B{
+      display: none; }}
+      
+       @media (max-width: 549px) {
+    #A {
+      display: none; }}
+      
+      .syasinn_inner{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100% !important;
+      background-color:#FFF;
+      }
+     
+      
+      .syasinn_inner div{
+        
+        width:32%;
+      margin-right:5px;
+        
+        
+      }
+        @media (max-width: 549px) {
+    .syasinn_inner div {
+      
+      width:50%; }}
+      
+      
+      
+      #side_bar{
+        display: flex;
+          flex-direction: column; 
+        width:25%;
+      }
+          
+       .daimei{
+         background-color: #887f69;
+         padding-bottom:20px;  }   
+     
+      .shopping{
+        display:flex;
+      }
+        @media (max-width: 549px) {
+    .shopping{
+      display: flex;
+      flex-direction:column;}}
+      
+      .shopping{
+        background-color: #FFF;
+      }
+    
+      
+    #searchform{
+      position: relative;
+      background-color:#F9F8F6;
+    }
+    
+    #searchsubmit{
+      position: absolute;
+      top:7px;
+      left: 150px;
+    }
+      
+      
+      
+      
+      footer {
+ 
+  padding-top: 20px; 
+       
+      }
+  
+  footer div p{text-align:center;}
+       
+       footer .copy {
+    text-align: center;
+    font-size: 11px;
+    font-size: 1.1rem;
+    color: #b2e1ea;
+          padding-top: 20px; 
+          padding-bottom: 30px;
+       }
+  
+  
+  
+  
+  
+  
+  
